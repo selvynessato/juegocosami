@@ -6,6 +6,7 @@
     <layout name="npxnabnsnfns10110000101" font="Open Sans" controllayout="npxnabnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
     <layout name="npnxnanbnsnfns10110000101" font="Open Sans" controllayout="npnxnanbnsnfns10110000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
     <layout name="pxabnsnfns10110000100" font="Open Sans" controllayout="pxabnsnfns10110000100" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns10110000101" string_table="npnxnanbnsnfns10110000101" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -207,6 +208,29 @@
         </controls>
       </control>
       <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
     </control_layout>
   </control_layouts>
   <colorschemes>
@@ -1296,6 +1320,7 @@
             <slidelink slideid="_player.6Hqpp08zskB.6TCGj2rHrMm" displaytext="Diapositiva sin título" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.5UoS4QyyMmm" displaytext="BOARD" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.5kyqWwQ6PZI" displaytext="END OF GAME" expand="false" type="slide" />
+            <slidelink slideid="_player.6Hqpp08zskB.5roqOQTsRTm" displaytext="INSURANCEH" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.62pYSJWNrNz" displaytext="INSURANCE" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.5aIEkabPyPS" displaytext="Diapositiva sin título" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.5sQXhRBet0o" displaytext="CHALLENGE" expand="false" type="slide" />
@@ -1303,9 +1328,9 @@
             <slidelink slideid="_player.6Hqpp08zskB.5sjuL0DhTcc" displaytext="PAY DAY" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.6VqVuGZLZym" displaytext="EXPENSE" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.6jnq4YrMXtX" displaytext="SELL" expand="false" type="slide" />
-            <slidelink slideid="_player.6Hqpp08zskB.5uHJT7V3Cvd" displaytext="SURPRISE" expand="false" type="slide" />
-            <slidelink slideid="_player.6Hqpp08zskB.5pso6l7M2Av" displaytext="INVESTMENTS" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.67j5O8mgGlD" displaytext="MONEY BALANCE" expand="false" type="slide" />
+            <slidelink slideid="_player.6Hqpp08zskB.5pso6l7M2Av" displaytext="INVESTMENTS" expand="false" type="slide" />
+            <slidelink slideid="_player.6Hqpp08zskB.5uHJT7V3Cvd" displaytext="SURPRISE" expand="false" type="slide" />
             <slidelink slideid="_player.6Hqpp08zskB.66oSdKlms8f" displaytext="INCOME" expand="false" type="slide" />
           </links>
         </slidelink>
